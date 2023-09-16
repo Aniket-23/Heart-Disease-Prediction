@@ -1,0 +1,38 @@
+
+/*
+heading font: DM Serif Display
+font-family: 'DM Serif Display', serif;
+
+body font: Dosis
+font-family: 'Dosis', sans-serif;
+
+*/
+h1{
+    align-items: center;
+    align-content: center;
+}
+
+#video-title {
+    justify-content: center;
+}
+
+.video-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    z-index: -2;
+}
+
+#page-title {
+    font-family: 'DM Serif Display', serif;
+    color: #fff;
+}
+
+#page-subtitle {
+    font-family: 'Dosis', sans-serif;
+    color: #fff;
+}
+
