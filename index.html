@@ -16,15 +16,25 @@
     <title>Heart Disease Prediction System</title>
 </head>
 <body>
-    
+
+  <section id="navbar">
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a href="#skills">Our Services</a>
+      <a href="#about">About The Diseases</a>
+      <a href="#">Dummy</a>
+      <a href="#">Dummy</a>
+    </div>
+    <span id="nav-button" style="font-size:30px;cursor:pointer; color: #fff;" onclick="openNav()">&#9776;</span>
+  </section>
   <section id="video-title" class="text-center">
     <div class="px-4 py-5 my-5 text-center">
-      <video class="video-container" muted autoplay loop style="opacity: 0.8;">
+      <video class="video-container" muted autoplay loop style="opacity: 0.8; background-color: #000;">
         <source src="./assets/Hear_101_video_Background.mp4" type="video/mp4">
       </video>
-      <h1 style="margin-top:10% !important;" class="display-5 fw-bold" id="page-title">Heart Disease Prediction System</h1>
+      <h1 style="margin-top:10% !important; background-color: #000000b0;" class="display-5 fw-bold" id="page-title">Heart Disease Prediction System</h1>
       <div class="col-lg-6 mx-auto">
-        <p class="lead mb-4" id="page-subtitle">Upload your MRI Scans and get quick results. Since we do care for your heart, and your time.
+        <p style="background-color: #000000b0;" class="lead mb-4" id="page-subtitle">Upload your MRI Scans and get quick results. Since we do care for your heart, and your time.
           <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-balloon-heart" viewBox="0 0 16 16">
             <path fill-rule="evenodd" d="m8 2.42-.717-.737c-1.13-1.161-3.243-.777-4.01.72-.35.685-.451 1.707.236 3.062C4.16 6.753 5.52 8.32 8 10.042c2.479-1.723 3.839-3.29 4.491-4.577.687-1.355.587-2.377.236-3.061-.767-1.498-2.88-1.882-4.01-.721L8 2.42Zm-.49 8.5c-10.78-7.44-3-13.155.359-10.063.045.041.089.084.132.129.043-.045.087-.088.132-.129 3.36-3.092 11.137 2.624.357 10.063l.235.468a.25.25 0 1 1-.448.224l-.008-.017c.008.11.02.202.037.29.054.27.161.488.419 1.003.288.578.235 1.15.076 1.629-.157.469-.422.867-.588 1.115l-.004.007a.25.25 0 1 1-.416-.278c.168-.252.4-.6.533-1.003.133-.396.163-.824-.049-1.246l-.013-.028c-.24-.48-.38-.758-.448-1.102a3.177 3.177 0 0 1-.052-.45l-.04.08a.25.25 0 1 1-.447-.224l.235-.468ZM6.013 2.06c-.649-.18-1.483.083-1.85.798-.131.258-.245.689-.08 1.335.063.244.414.198.487-.043.21-.697.627-1.447 1.359-1.692.217-.073.304-.337.084-.398Z"/>
           </svg>
@@ -51,6 +61,7 @@
     <div class="container px-4 py-5 mt-5" id="custom-cards">
       <h2 class="pb-2 border-bottom titles">Our Services</h2> <br>
       <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+
         <div class="col">
           <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('./assets/Arrythmia.jpg'); background-size: cover;">
             <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
