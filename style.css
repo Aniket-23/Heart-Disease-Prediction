@@ -13,13 +13,19 @@ h1{
 }
 
 body {
-    background-color: #000;
+    background-color: #fff;
+    font-family: 'Dosis', sans-serif;
 }
 
+.titles {
+    font-family: 'DM Serif Display', serif;
+    font-weight: 800;
+}
 
 #video-title {
     justify-content: center;
     height: 87vh;
+    opacity: 1;
 }
 
 .video-container {
@@ -42,7 +48,49 @@ body {
     color: #fff;
 }
 
-#skills {
+#skills, #about {
     background-color: #fff;
     height: 100vh;
+}
+
+.accordion {
+    background-color: #fff;
+    font-family: 'DM Serif Display', serif;
+    color: #171717;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: 1px solid black;
+    text-align: left;
+    outline: none;
+    font-size: 25px;
+    transition: 0.4s;
+}
+  
+.active, .accordion:hover {
+    background-color: #FFCC70;
+}
+
+.accordion:after {
+    content: '\002B';
+    color: #010101;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}
+  
+.active:after {
+    content: "\2212";
+}
+  
+.panel {
+    padding: 0 18px;
+    background-color: #fff;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+
+.content {
+    font-weight: 800;
 }
